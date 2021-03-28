@@ -13,5 +13,5 @@ spec:
         limits:
           memory: "1Gi"
     - name: docker
-      image: docker:18.06.1
+      image: docker:dind
       imagePullPolicy: Always

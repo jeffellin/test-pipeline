@@ -15,3 +15,5 @@ spec:
     - name: docker
       image: docker:dind
       imagePullPolicy: Always
+      securityContext:
+        privileged: true

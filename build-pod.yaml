@@ -15,7 +15,3 @@ spec:
     - name: docker
       image: docker:18.06.1
       imagePullPolicy: Always
-  volumes:
-    - name: docker
-      hostPath:
-        path: /var/run/docker.sock
